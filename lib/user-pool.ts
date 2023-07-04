@@ -1,7 +1,6 @@
 import { RemovalPolicy } from 'aws-cdk-lib';
 import { UserPool } from 'aws-cdk-lib/aws-cognito';
 import { Construct } from 'constructs';
-import { UserPoolIdentityProviderGoogle,UserPoolIdentityProviderGoogleProps } from 'aws-cdk-lib/aws-cognito';
 
 export class CognitoUserPool extends Construct {
   readonly userPoolId: string;
